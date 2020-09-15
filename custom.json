@@ -1,0 +1,70 @@
+{
+ "Cutlose": "OFF",
+  "Client Seed": "OFF",
+ "Profit": {
+        "Target Profit": "10",
+        "Stop If Profit": "OFF",
+        "Interval": "120"
+     },
+ "Target Win": "0",
+  "Lose Target": "0",
+  "Interval": "1",
+ "Config": [{
+     "Name Bet Set": "0 - C49",
+     "Base Bet": "0.0000001",
+     "Max Bet": "OFF",
+     "Chance": "49",
+     "Random Chance": {
+          "Toggle": "ON",
+          "Min": "5",
+          "Max": "65"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "On",
+              "If Lose": "1",
+              "If Win": "1",
+              "If Bets": "0"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "1.3",
+     "Reset If Win": "0",
+     "Reset If Lose": "0",
+     "Reset If Profit": "0.0001",
+     "Interval": "4"
+     },{
+     "Name Bet Set": "1 - C30",
+     "Base Bet": "0.0000001",
+     "Max Bet": "OFF",
+     "Chance": "30",
+     "Random Chance": {
+          "Toggle": "Off",
+          "Min": "5",
+          "Max": "30"
+        },
+     "Bet": {
+          "Bet": "Low",
+          "Hi / Low": {
+              "Toggle": "Off",
+              "If Lose": "1",
+              "If Win": "1",
+              "If Bets": "0"
+            }
+        },
+     "If Win": "1",
+     "If Lose": "1.5",
+     "Reset If Win": "0",
+     "Reset If Lose": "0",
+     "Reset If Profit": "0.0001",
+     "Interval": "5"
+     }
+  ],
+  "Auto Wd": {
+       "Toggle": "OFF",
+       "If Balance": "206",
+       "Wallet Address": "DGguDrHvBkwVKDERGkXEz3QmQ46zTmRfKT",
+       "Amount": "6"
+      }
+}
